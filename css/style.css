@@ -668,7 +668,7 @@ header ul span { color: #fff; }
 .menu { margin: 10px 0; font-size: 1.6em; font-variant: small-caps; }
 .menu li { display: inline-block; }
 .menu .selected a { color: #be2827; font-weight: bold; }
-.right { float: right;}
+.right { float: right; text-align: right; }
 .box { background-color: #ccc; border-radius: 5px; color: #333;  }
 
 .phone { font-size: 2em; }

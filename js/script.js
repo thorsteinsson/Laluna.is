@@ -19,22 +19,17 @@ $(function() {
     	e.preventDefault();
     });
     
-    var changing = false;
     $('.i18n a').bind('click', function(e) {
-    	if (changing) { return; }
-    	changing = true;
     	var elem = $(this);
     	if (elem.attr('href').indexOf('en') > 0) {
     		$('.is').fadeOut(200, function(){
     			$('.en').fadeIn(200);
     			elem.parent().hide().next().show();
-    			changing = false;
     		});
     	} else {
     		$('.en').fadeOut(200, function(){
     			$('.is').fadeIn(200);
     			elem.parent().hide().prev().show();
-    			changing = false;
     		});
     	}
     	e.preventDefault();
