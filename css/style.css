@@ -663,8 +663,8 @@ html { background-color: #231f20; font-size: 1em; }
 body { font-family: 'Lekton', arial, serif; background-color: #231f20; color: #fff; }
 a, a:visited, a:active { color: #fff; }
 header { font-size: 1.1em;}
-header ul { color: #be2827; padding-left: 20px; }
-header ul span { color: #fff; }
+ul.colored { color: #be2827; padding-left: 20px; }
+ul.colored span { color: #333; }
 .menu { margin: 10px 0; font-size: 1.6em; font-variant: small-caps; }
 .menu li { display: inline-block; }
 .menu .selected a { color: #be2827; font-weight: bold; }
@@ -676,8 +676,6 @@ header ul span { color: #fff; }
 
 .menu .hide, .en { display: none; }
 .i18n { margin-right: 5px; }
-
-
 
 
 
