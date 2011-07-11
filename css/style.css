@@ -669,8 +669,8 @@ ul.colored span { color: #333; }
 .menu li { display: inline-block; }
 .menu .selected a { color: #be2827; font-weight: bold; }
 .right { float: right; text-align: right; }
-.box { background-color: #ccc; border-radius: 5px; color: #333;  }
-
+.box { background-color: #ccc; color: #333; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;  }
+.colored { color: #be2827; }
 .phone { font-size: 2em; }
 
 
