@@ -1,8 +1,10 @@
 $(function() {
-    $('#slider').nivoSlider({
-    	controlNav: false
-    });
-    
+	setTimeout(function() { // let images load a bit (bug in plugin)
+		$('#slider').nivoSlider({
+			controlNav: false
+		});
+	}, 500);
+
     $('.menu :not(.right) a').bind('click', function(e) {
 		$(".menu li:not(.right)").removeClass("selected");
 		$(this).parent().addClass('selected');
